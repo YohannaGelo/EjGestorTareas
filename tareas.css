@@ -1,0 +1,104 @@
+@font-face {
+    /* para inserta una fuente descargada */
+    font-family: 'indie';
+    /* Nombre de la fuente */
+    src: url('font/IndieFlower-Regular.ttf') format('truetype');
+    /* Ruta de la fuente */
+}
+
+@font-face {
+    /* para inserta una fuente descargada */
+    font-family: 'permanent';
+    /* Nombre de la fuente */
+    src: url('font/PermanentMarker-Regular.ttf') format('truetype');
+    /* Ruta de la fuente */
+}
+
+
+body {
+    background-image: url("img/fondo.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: 22px;
+    font-family: 'indie', sans-serif;
+    color: #313131;
+    text-align: justify;
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+
+main {
+    width: 60%;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 70px;
+    color:burlywood;
+    -webkit-text-stroke-width: 0.05px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.722);
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    font-family: 'permanent', sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 30px;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    font-size: 30px;
+    color:rgb(116, 93, 93);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#completado {
+    margin-right: 2em;
+    cursor: pointer;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgba(205, 92, 92, 0.389);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'indie', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    border: 0.5px solid rgb(95, 95, 95);
+}
+
+#agregarTarea{
+    background-color:rgba(0, 128, 0, 0.393);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cajaTareas {
+    width: 75%;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid rgb(121, 121, 121);
+    background-color: rgba(194, 194, 194, 0.337);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
+}
+
